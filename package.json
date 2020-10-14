@@ -1,0 +1,22 @@
+{
+  "name": "json-stringify-opts",
+  "version": "1.0.0-alpha.0",
+  "description": "Add options like maxDepth to json.stringify",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape \"**/*.test.js\"",
+    "format": "prettier --write '**/*.{js,json}'"
+  },
+  "author": "Aaron Madsen <amadsen@codifiant.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "tape": "^5.0.1"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "always"
+  }
+}
